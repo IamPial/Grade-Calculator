@@ -9,7 +9,7 @@
     let grade;
     
     if(mark > 100 || mark < 0){
-        grade = "Invalid Number";
+        grade = "Invalid Marks";
     }
     else if(mark >= 80 && mark <= 100){
         grade = "You have got Grade = A+";
